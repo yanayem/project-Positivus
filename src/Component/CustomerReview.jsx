@@ -123,14 +123,23 @@ const CustomerReview = () => {
         {extendedReviews.map((review, idx) => (
           <div
             key={idx}
-            className="slide flex-none w-80 sm:w-90 lg:w-96 snap-start bg-[#1a1a1a] border border-green rounded-2xl p-6 shadow-md flex flex-col justify-between relative"
+            className="flex-none w-80 sm:w-90 lg:w-96 snap-start flex flex-col"
           >
-            <p className="desc text-gray-300 text-sm sm:text-base min-h-[100px]">
-              "{review.desc}"
-            </p>
-            <div className="tail absolute bottom-[-12px] left-10 w-6 h-6 bg-[#1a1a1a] border-l border-b border-green rotate-[-45deg]"></div>
-            <div className="mt-6 text-left">
-              <h4 className="name text-green font-bold text-lg">{review.name}</h4>
+            {/* Card Box */}
+            <div className="relative bg-[#1a1a1a] border border-green rounded-2xl p-6 pb-8 shadow-md flex flex-col justify-between min-h-[250px] sm:min-h-[275px]">
+              <p className="desc text-gray-300 text-sm sm:text-base flex-1">
+                "{review.desc}"
+              </p>
+
+              {/* Tail */}
+              <div className="absolute bottom-[-12px] left-10 w-6 h-6 bg-[#1a1a1a] border-l border-b border-green rotate-[-45deg]"></div>
+            </div>
+
+            {/* Name & Position */}
+            <div className="mt-6 ml-8 text-left">
+              <h4 className="name text-green font-bold text-lg">
+                {review.name}
+              </h4>
               <p className="pos text-gray-400 text-sm">{review.pos}</p>
             </div>
           </div>
