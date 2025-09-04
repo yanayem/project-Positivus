@@ -1,12 +1,23 @@
-# React + Vite
+# Positivus Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Positivus Landing Page** project — a modern, responsive landing page built with React and Vite. This project demonstrates converting a Figma design into a fully functional, interactive webpage.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version here:  
+[Positivus Live](https://project-positivus-delta.vercel.app)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – JavaScript library for building user interfaces  
+- **Vite** – Next-generation fast build tool  
+- **ESLint** – Linting utility for JavaScript
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yanayem/project-Positivus.git
