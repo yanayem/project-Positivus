@@ -1,13 +1,47 @@
-# React + Vite
+# Positivus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page project for a digital‑marketing or
+business website.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://project-positivus-delta.vercel.app
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# sopper_e_com_project
+-   Fully responsive layout\
+-   Clean and minimal design\
+-   Easy to customize\
+-   Modern HTML, CSS, and JavaScript structure
+
+## Folder Structure
+
+    project-Positivus/
+    ├── public/        # images, fonts, icons
+    ├── src/           # css, js, components (if used)
+    ├── index.html
+    ├── package.json
+    └── README.md
+
+## Installation & Run
+
+``` bash
+git clone https://github.com/yanayem/project-Positivus.git
+cd project-Positivus
+npm install
+npm run dev
+```
+
+## Build for Production
+
+``` bash
+npm run build
+```
+
+## Contributing
+
+Pull requests are welcome for improvements, bug fixes, and new features.
+
+## License
+
+Open‑source. You may use and modify freely.
